@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 229" class='camera'>
+  <style>
+        @keyframes camera-g {
+            0% { transform: rotate(7deg); }
+            20% { transform: rotate(7deg); }
+            100% { transform: rotate(0deg); }
+        }
+        @keyframes camera-gp4 {
+            0% { transform: translate(-3px, -3px); }
+            20% { transform: translate(-3px, -3px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        @keyframes camera-gp1 {
+            0% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        svg.camera g {
+            transform-origin: 15px 219px;
+            animation: camera-g 2s infinite alternate;
+        }
+
+        svg.camera g path:nth-child(4) {
+          animation: camera-gp4 2s infinite alternate;
+        }
+
+        svg.camera g path:nth-child(1) {
+          animation: camera-gp1 2s infinite alternate;
+        }
+  </style>
+  <g stroke="#000">
+    <path d="M74.084 48.697c-1.84 0-3.65.75-4.95 2.05a7.079 7.079 0 00-2.05 4.95c0 1.84.75 3.65 2.05 4.95a7.019 7.019 0 004.95 2.05c1.84 0 3.65-.74 4.95-2.05 1.3-1.3 2.05-3.11 2.05-4.95 0-1.84-.75-3.64-2.05-4.95a7.061 7.061 0 00-4.95-2.05z" fill="f0f" fill-rule="nonzero"/>
+
+    <path stroke-width="12" d="M58 163l36.923-59M120.238 92.897l-5.627 17.224a1 1 0 01-1.242.646l-38.72-11.8a1 1 0 01-.693-1.134l.037-.144h0l6.752-17.98a1 1 0 011.253-.597l37.605 12.526a1 1 0 01.635 1.259z" fill="none"/>
+
+    <path d="M68.057 6.557l123.364 37.716a1 1 0 01.664 1.249l-18.42 60.247a1 1 0 01-1.249.664L49.053 68.717a1 1 0 01-.664-1.249L66.81 7.221a1 1 0 011.248-.664z" stroke-width="13" fill="none"/>
+
+    <path d="M190.553 63.543l22.369-.81a1 1 0 01.992 1.291L201 106.266a1 1 0 01-1.556.508l-19.528-14.638a1 1 0 01-.336-1.152l10.074-26.794a1 1 0 01.9-.647z" stroke="#000" stroke-width="8" fill="none"/>
+  </g>
+
+
+  <path d="M55.407 154.495A33.12 33.12 0 0042 151.67H7a7 7 0 00-7 7v52.667a7 7 0 007 7h35c18.38 0 33.333-14.953 33.333-33.333 0-8.571-3.254-16.395-8.588-22.307.088-.116-3.691-2.85-11.338-8.202zm-32.074 11.174v38.667H14v-38.667h9.333zm18.667 0c10.66 0 19.333 8.673 19.333 19.333 0 10.66-8.673 19.334-19.333 19.334h-4.667v-38.667H42z" fill="#000" fill-rule="nonzero"/>
+</svg>

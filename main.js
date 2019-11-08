@@ -1,5 +1,6 @@
 const images = [
     'magic-hat.svg',
+    'camera.svg',
 ];
 
 const $images = document.getElementById('images');
